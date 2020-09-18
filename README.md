@@ -1,3 +1,0 @@
-#Joeco.me
-
-Joeco.me
