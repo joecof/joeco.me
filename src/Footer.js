@@ -7,11 +7,13 @@ import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100vw',
     marginTop: 100,
     paddingTop: 50,
     paddingBottom: 50,
-    backgroundColor: 'black'
+    width: '100%',
+    backgroundColor: 'black',
+
+    height: 70
   },
   footer: {
     borderTop: '1px solid black'
@@ -57,7 +59,7 @@ export default function () {
           </Grid>
         </Grid>
         <Grid item xs = {12}>
-          <p className = {classes.text}>© Joeco Fong - Full Stack Developer - All rights reserved. @2020.</p>
+          <p className = {classes.text}>© Joeco Fong - Full Stack Developer - All rights reserved. @2021.</p>
         </Grid>
       </Grid>
     </div>

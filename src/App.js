@@ -7,8 +7,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Container/>
-      <Footer/>
+      <div className='wrapper'>
+        <Container/>
+        <div className='push'></div>
+      </div>
+      <div className='footer'>
+        <Footer/>
+      </div>
     </div>
   );
 }

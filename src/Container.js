@@ -9,10 +9,16 @@ const useStyles = (theme) => ({
     width: '50%',
     margin: '0 auto',
     textAlign: 'center',
+
+    minHeight: 'calc(90vh - 70px)',
+
     [theme.breakpoints.down(960)]: {
       width: '75%',
     },
   },
+  space: {
+    height: 50
+  }
 });
 
 class Container extends Component {
@@ -24,6 +30,7 @@ class Container extends Component {
         <Navbar/>
         <Header/>
         <Projects/>   
+        <div className={classes.space}></div>
       </div>
     )
   }
