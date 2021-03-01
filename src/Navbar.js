@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     height: 50
   },
   indicator: {
-    backgroundColor: '#B4EEB4'
+    backgroundColor: '#b2e4ff'
   }
 }));
 

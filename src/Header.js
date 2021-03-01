@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     '-webkit-box-pack': 'center',
     justifyContent: 'center',
-    backgroundColor: '#B4EEB4',
+    backgroundColor: '#b2e4ff',
     height: 180,
     width: 180,
     borderRadius: '42% 58% 37% 63% / 55% 40% 60% 45%',
